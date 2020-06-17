@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box; 
+}
+
+body{
+  background: #e9e9e9;
+  color: #2e2e2e;
+  font-family: 'Oswald', sans-serif;
+}
+
+/*stilod de menu*/
+header .container-fluid{
+  background-color: #F29235;
+}
+.tel{
+  color: #011779;
+
+}
+.contact{
+  margin-top: 5px; /*bajar hacia abajo el contaco*/
+}
+
+
+@media (min-width: 350px) {
+
+.contact1{
+  width: 100%;
+  background-color: #007CFF;
+  border-radius: 13px;
+
+}
+
+     
+  }
+
+/*-----------------------------------
+    Small devices (landscape phones, 576px and up)
+------------------------------------*/
+@media (min-width: 350px) {
+
+/*estilo de menu*/
+ .navbar-brand img {
+    width: 100px;      /*hacer mas grande el menu*/
+  }
+
+  .contact1{
+  width: 40%;
+ 
+  border-radius: 13px;
+
+}
+  
+}
+
+
+@media (min-width: 768px) {
+  /*estilo de menu*/
+  .navbar-brand img {
+    width: 100px;      /*hacer mas grande el menu*/
+  }
+  
+ .navbar-collapse .nav-link {  /*modificar las lineas rojas  y menu*/
+    font-size: 0.875rem;
+    position: relative;
+  }
+  
+  .navbar-collapse .nav-link::after {  /*modificar el menu de 2colores b/r y lienas rojas*/
+    content: "";
+    width:; /*para q oculte las inea*/
+    height: 4px;
+    background-color: black; /*cambiar el color de las linesa de item*/
+    position: absolute;
+    left: 50%;
+    bottom: 0; /*poner las lineas arriba o abajo del texto*/
+    transition: all 0.35s ease;
+  }
+  .navbar-collapse .nav-link:hover::after { /*hacer hover los menus*/
+    width: 100%;
+    left: 0; /*centrar las linea de color en los menu*/
+  }
+  .navbar-collapse .nav-link:hover::before { /*hacer mas rapido el movimiento de las lineas*/
+    opacity: 3;
+  
+
+}
+
+
+.contact1{
+  width: 50%;
+  background-color: #007CFF;
+  border-radius: 13px;
+  
+}
+
+.yo{
+  width: 15%;
+}
+
+
+
+/*-----------------------------------
+    Large devices (desktops, 992px and up)
+------------------------------------*/
+@media (min-width: 992px) {
+  
+
+  
+}
+
+
+/*-----------------------------------
+    Extra large devices (large desktops, 1200px and up)
+------------------------------------*/
+@media (min-width: 1200px) {
+/*estilo de menu*/
+   .navbar-brand img {    /*hacer mas pequeño el logo*/
+    width: 45%;
+  }
+  
+  
+}
+
+
+
+
+
+
+/*estilo de adysweb Y FOTER*/ 
+
+.adys{
+  background-color: #007CFF;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.adys p{
+  color: white;
+}
+
+.media-body h5{
+  color: #777777;
+}
+
+.media-body p{
+  color: white;
+}
+
+.footer-widgets{
+  background-color: #005793;
+
+}
+
+.media-body {
+  color: #FFD43D;
+}
+
+.media-body a {
+  color: white;
+}
+.footer-content p{
+  color: black;
+}
+
+.adysweb{
+  color: white;
+}
+
+/*boton watsap*/
+
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
